@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    padding: 0 20%;
+}
+
+header{
+    background-color: white;
+    border: 1px solid transparent;
+    text-align: center;
+}
+
+.content{
+    padding: 5% 0;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box, h2, p{
+    background-color: white;
+    margin: 2rem;
+    max-width: 600px;
+}
+
+.box h2{
+    display: inline-block;
+    width: 80%;
+}
+
+.box span{
+    color: #b2bec3;
+}
+
+.box img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+
